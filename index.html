@@ -10,7 +10,17 @@
 <body style="background-color: rgb(223, 198, 165);">
     <div id="main">
         <h1 style="font-size: 27px;justify-content: center;">神金加密器</h1>
-        <div id="context"></div>
+        <div id="context">
+            <textarea id="input" placeholder="我说请输入文本，尼尔多隆吗" name="input"></textarea>
+            <div id="buttoms">
+                <button id="encrypt-btn" onclick="jia()">加密</button>
+                <button id="decrypt-btn" onclick="jie()">解密</button>
+                <select name="way">
+
+                </select>
+            </div>
+            <textarea id="output" placeholder="" name="output" readonly="yes"></textarea>
+        </div>
     </div>
 </body>
 </html>
